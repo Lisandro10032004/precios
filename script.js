@@ -1,164 +1,188 @@
 const productos = [
   {
-    nombre: " Lavadora",
-    precio: 399.99,
-    seccion: "Electrodomésticos",
+    nombre: "Energizante Speed",
+    precio: 80,  
+    seccion: "Bebidas"
   },
   {
-    nombre: " Televisor",
-    precio: 499.99,
-    seccion: "Electrodomésticos",
+    nombre: "Gaseosa Coca-Cola 2 litros",
+    precio: 200,  
+    seccion: "Bebidas"
   },
   {
-    nombre: " Sofá",
-    precio: 299.99,
-    seccion: "Muebles",
+    nombre: "Papel higiénico Scottex",
+    precio: 120,  
+    seccion: "Higiene"
   },
   {
-    nombre: " Camisa",
-    precio: 29.99,
-    seccion: "Ropa",
+    nombre: "Huevos (docena)",
+    precio: 140,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Zapatos",
-    precio: 79.99,
-    seccion: "Calzado",
+    nombre: "Galletas surtidas Terrabusi",
+    precio: 90,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Toallas",
-    precio: 9.99,
-    seccion: "Hogar",
+    nombre: "Chocolate Águila 100g",
+    precio: 70,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Olla",
-    precio: 49.99,
-    seccion: "Cocina",
+    nombre: "Cerveza Quilmes 1 litro",
+    precio: 100,  
+    seccion: "Bebidas"
   },
   {
-    nombre: " Portátil",
-    precio: 899.99,
-    seccion: "Electrónica",
+    nombre: "Agua mineral 500ml",
+    precio: 30,  
+    seccion: "Bebidas"
   },
   {
-    nombre: " Bicicleta",
-    precio: 299.99,
-    seccion: "Deportes",
+    nombre: "Snacks de maíz Cheetos",
+    precio: 60,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Huevo",
-    precio: 0.99,
-    seccion: "Alimentos",
-  },  {
-    nombre: " Lavadora",
-    precio: 399.99,
-    seccion: "Electrodomésticos",
+    nombre: "Papas fritas Lays",
+    precio: 90,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Televisor",
-    precio: 499.99,
-    seccion: "Electrodomésticos",
+    nombre: "Chicles Beldent",
+    precio: 25,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Sofá",
-    precio: 299.99,
-    seccion: "Muebles",
+    nombre: "Salchichas Vieníssima",
+    precio: 180,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Camisa",
-    precio: 29.99,
-    seccion: "Ropa",
+    nombre: "Yogur Sancor 200g",
+    precio: 40,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Zapatos",
-    precio: 79.99,
-    seccion: "Calzado",
+    nombre: "Cigarrillos Marlboro",
+    precio: 250,  
+    seccion: "Tabaco"
   },
   {
-    nombre: " Toallas",
-    precio: 9.99,
-    seccion: "Hogar",
+    nombre: "Café instantáneo Nescafé",
+    precio: 120,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Olla",
-    precio: 49.99,
-    seccion: "Cocina",
+    nombre: "Caramelos Sugus",
+    precio: 15,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Portátil",
-    precio: 899.99,
-    seccion: "Electrónica",
+    nombre: "Pan blanco Bimbo",
+    precio: 80,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Bicicleta",
-    precio: 299.99,
-    seccion: "Deportes",
+    nombre: "Leche La Serenísima 1 litro",
+    precio: 100,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Huevo",
-    precio: 0.99,
-    seccion: "Alimentos",
-  },  {
-    nombre: " Lavadora",
-    precio: 399.99,
-    seccion: "Electrodomésticos",
+    nombre: "Jamón y queso (100g)",
+    precio: 75,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Televisor",
-    precio: 499.99,
-    seccion: "Electrodomésticos",
+    nombre: "Mayonesa Hellmann's 237g",
+    precio: 60,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Sofá",
-    precio: 299.99,
-    seccion: "Muebles",
+    nombre: "Papas fritas Pringles",
+    precio: 120,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Camisa",
-    precio: 29.99,
-    seccion: "Ropa",
+    nombre: "Chocolatina Tofi",
+    precio: 15,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Zapatos",
-    precio: 79.99,
-    seccion: "Calzado",
+    nombre: "Jugo de naranja Cepita 1 litro",
+    precio: 100,  
+    seccion: "Bebidas"
   },
   {
-    nombre: " Toallas",
-    precio: 9.99,
-    seccion: "Hogar",
+    nombre: "Almohaditas Toddy",
+    precio: 50,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Olla",
-    precio: 49.99,
-    seccion: "Cocina",
+    nombre: "Pan dulce Bauducco",
+    precio: 300,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Portátil",
-    precio: 899.99,
-    seccion: "Electrónica",
+    nombre: "Chocolatina Milka",
+    precio: 40,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Bicicleta",
-    precio: 299.99,
-    seccion: "Deportes",
+    nombre: "Caramelos Rocklets",
+    precio: 20,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Huevo",
-    precio: 0.99,
-    seccion: "Alimentos",
-  },  {
-    nombre: " Lavadora",
-    precio: 399.99,
-    seccion: "Electrodomésticos",
+    nombre: "Mostaza Dijon",
+    precio: 40,  
+    seccion: "Alimentos"
   },
   {
-    nombre: " Televisor",
-    precio: 499.99,
-    seccion: "Electrodomésticos",
-  }
-
-];
-
+    nombre: "Manteca Sancor 200g",
+    precio: 90,  
+    seccion: "Alimentos"
+  },
+  {
+    nombre: "Galletas Oreo",
+    precio: 70,  
+    seccion: "Alimentos"
+  },
+  {
+    nombre: "Sal Moliendo",
+    precio: 10,  
+    seccion: "Alimentos"
+  },
+  {
+    nombre: "Atún en lata",
+    precio: 160,  
+    seccion: "Alimentos"
+  },
+  {
+    nombre: "Azúcar 1 kg",
+    precio: 900, // Precio en pesos argentinos
+    seccion: "Alimentos"
+  },
+  {
+    nombre: "Arroz 1 kg",
+    precio: 120,  
+    seccion: "Alimentos"
+  },
+  {
+    nombre: "Fideos secos Spaghetti 500g",
+    precio: 50,  
+    seccion: "Alimentos"
+  },
+  {
+    nombre: "Aceite de cocina 1 litro",
+    precio: 180,  
+    seccion: "Alimentos"
+  },
+  {
+    nombre: "Sopa en sobre Knorr",
+    precio: 30,  
+  }]
 
 const search = document.querySelector("#search");
 const container = document.querySelector(".container");
